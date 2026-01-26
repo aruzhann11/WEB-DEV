@@ -1,0 +1,51 @@
+Background Image on an HTML element
+
+<p style="background-image: url('img_girl.jpg');"></p>
+
+<style>
+p {
+  background-image: url('img_girl.jpg');
+}
+</style>
+
+Add a background image for the entire page:
+
+<style>
+body {
+  background-image: url('img_girl.jpg');
+}
+</style>
+
+To avoid the background image from repeating itself, set the background-repeat property to no-repeat.
+
+Example
+<style>
+body {
+  background-image: url('example_img_girl.jpg');
+  background-repeat: no-repeat;
+}
+</style>
+
+
+Background Cover
+If you want the background image to cover the entire element, you can set the background-size property to cover.
+
+<style>
+body {
+  background-image: url('img_girl.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+
+Background Stretch
+
+<style>
+body {
+  background-image: url('img_girl.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
