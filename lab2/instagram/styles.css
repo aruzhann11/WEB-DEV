@@ -1,12 +1,4 @@
-<!doctype html>
-<html lang="ru">
-<head>
-<meta charset="UTF-8">
-<title>Instagram — Вход</title>
 
-<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-
-<style>
 *{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
@@ -53,14 +45,14 @@ body{
 .gradient1{
     font-family: 'Times New Roman', Times, serif;
     background: linear-gradient(90deg,#f58529,#dd2a7b);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .gradient2{
     font-family: 'Times New Roman', Times, serif;
     background: linear-gradient(90deg,#be2fb7,#930da2);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -84,7 +76,7 @@ body{
      font-size: 64px !important;
      cursor: pointer;
      background: linear-gradient(90deg,#f25e08,#c016d2);
-    -webkit-background-clip: text;
+     background-clip: text;
     -webkit-text-fill-color: transparent;
 
 }
@@ -169,57 +161,3 @@ body{
     color: grey;
     text-align: center;
 }
-</style>
-</head>
-
-<body>
-
-<div class="main">
-    <div class="wrapper">
-        <div class="left">
-            <i class='bx bxl-instagram insta-logo'></i>
-
-            <h3>
-                Посмотрите, какими<br>
-                моментами из жизни<br>
-                поделились ваши <span class="gradient1">близкие</span><br>
-                <span class="gradient2">друзья</span>.
-            </h3>
-
-            <img src="https://static.cdninstagram.com/rsrc.php/v4/yF/r/reN9rvYdLTB.png" alt="Instagram preview">
-        </div>
-
-        <div class="divider"></div>
-
-        <div class="right">
-            <h4>Войти в Instagram</h4>
-
-            <input type="text" placeholder="Имя пользователя, телефон или email">
-            <input type="password" placeholder="Пароль">
-
-            <button class="login-btn">Войти</button>
-
-            <a href="#" class="forgot">Забыли пароль?</a>
-
-            
-
-            <button class="facebook-btn">
-                <i class='bx bxl-facebook-circle'></i> Войти через Facebook
-            </button>
-
-            <button class="create-btn">Создать новый аккаунт</button>
-
-            <div class="meta">
-                <i class='bx bxl-meta'></i> Meta
-            </div>
-        </div>
-
-    </div>
-</div>
-
-<div class="footer">
-    © 2026 Instagram from Meta
-</div>
-
-</body>
-</html>
