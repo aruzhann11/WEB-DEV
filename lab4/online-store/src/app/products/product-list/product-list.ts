@@ -1,18 +1,18 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Product } from '../../product.model';
-import { ProductCard } from '../product-card/product-card';
+import { ProductCardComponent } from '../product-card/product-card';
 
 @Component({
   selector: 'app-product-list',
   standalone: true,
-  imports: [CommonModule, ProductCard],
+  imports: [CommonModule, ProductCardComponent],
   templateUrl: './product-list.html',
   styleUrls: ['./product-list.css']
 })
 export class ProductListComponent {
   
-  @Input() product!: Product;
+
 
   getStars(rating: number): number[] {
     return Array(Math.floor(rating)).fill(0);
