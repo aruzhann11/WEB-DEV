@@ -1,0 +1,77 @@
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+.main-image {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.thumbnails {
+  display: flex;
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.thumb {
+  width: 230px;
+  height: 150px;
+  object-fit: contain;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 1px solid transparent;
+}
+
+.thumb:hover {
+  border: 1px solid #6f7173;
+}
+.like{
+    background-color:rgb(205, 44, 44);
+    color: white;
+    border:none;
+    border-radius: 6px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.delete{
+    background-color:rgb(101, 101, 101);
+    color: white;
+    border:none;
+    border-radius: 6px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.WhatsApp{
+    background-color:rgb(36, 173, 91);
+    color: white;
+    border:none;
+    border-radius: 6px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.Telegram{
+    background-color:rgb(44, 125, 213);
+    color: white;
+    border:none;
+    border-radius: 6px;
+    padding: 10px;
+   
+}
+.price{
+    color:rgb(200, 28, 28);
+    font-size: 25px;
+}
+.card p{
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.likes{
+    color: rgb(216, 27, 27);
+}

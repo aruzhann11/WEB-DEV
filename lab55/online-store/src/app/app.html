@@ -1,0 +1,19 @@
+<h1>Online Store - Kaspi</h1>
+
+<div class="categories">
+  @for (category of categories; track category.id) {
+    <button
+      (click)="selectCategory(category.id)"
+      [class.active]="selectedCategoryId === category.id">
+      {{ category.name }}
+    </button>
+  }
+</div>
+
+@if (!selectedCategoryId) {
+  <p>Select a category</p>
+} @else {
+  <app-product-list
+    [products]="filteredProducts">
+  </app-product-list>
+}
