@@ -19,9 +19,12 @@
 
   <p class="likes">❤ {{ product.likes }}</p>
   
+  <a class="link" [href]="product.link" target="_blank">View on Kaspi</a>
+  <div>
   <button class="like" (click)="like()">Like</button>
   <button class="delete" (click)="remove()">Delete</button>
 
   <button class= "WhatsApp" (click)="shareWhatsApp()">WhatsApp</button>
   <button class="Telegram" (click)="shareTelegram()">Telegram</button>
+</div>
 </div>

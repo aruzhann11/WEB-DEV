@@ -25,6 +25,7 @@ export class ProductItemComponent {
   changeImage(img: string) {
    this.selectedImage = img;
   }
+  
 
   shareWhatsApp() {
     window.open(`https://wa.me/?text=${this.product.link}`, '_blank');
