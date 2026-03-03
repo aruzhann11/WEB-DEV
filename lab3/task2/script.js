@@ -1,5 +1,5 @@
-
-    const input = document.getElementById('input-box');
+ document.addEventListener("DOMContentLoaded",function(){
+  const input = document.getElementById('input-box');
     const addBtn = document.getElementById('button');
     const list = document.getElementById('list');
 
@@ -43,3 +43,6 @@
     input.addEventListener('keypress', (e) => {
       if (e.key === 'Enter') addItem();
     });
+
+ })
+    

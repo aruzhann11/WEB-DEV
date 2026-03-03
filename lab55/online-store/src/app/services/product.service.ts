@@ -318,7 +318,7 @@ export class ProductService {
       link:'https://kaspi.kz/shop/p/smart-kol-tso-oura-ring-4-10-serebristyi-142956106/?c=750000000',
       likes:8,
       categoryId: 4
-    },
+    }
     
     
   ]
