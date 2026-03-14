@@ -1,0 +1,9 @@
+v=-1
+t=1
+s=109
+s1=v*t
+if(s1>s):
+    s1=s1-s
+else:
+    s1=s1+s
+print(s1)
