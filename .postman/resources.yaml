@@ -2,6 +2,10 @@
 workspace:
   id: 4cd73eac-912d-4fe0-882c-04b79d2a3166
 
+cloudResources:
+  collections:
+    ..\postman\collections\Lab 10 Shop API: 295d4819-a545-4407-96a1-9dd530a6e9a2
+
 # All resources in the `postman/` folder are automatically registered in Local View.
 # Point to additional files outside the `postman/` folder to register them individually. Example:
 #localResources:

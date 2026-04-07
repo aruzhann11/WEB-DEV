@@ -231,7 +231,7 @@ export class ProductService {
     {
       id: 15,
       name:'Apple Watch SE GPS Gen.2 2024',
-      description:'Смарт-часы Apple Watch SE GPS Gen.2 2024 M/L 40 мм бежевый-бежевый',
+      description:'Apple Watch SE GPS Gen.2 2024',
       price:139000,
       rating:5,
       image:'https://resources.cdn-kaspi.kz/img/m/p/p1a/p83/5495067.png?format=gallery-medium',

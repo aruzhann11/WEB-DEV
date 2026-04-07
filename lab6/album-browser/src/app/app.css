@@ -10,7 +10,7 @@ ul {
 }
 
 .navbar {
-  background-color: #f1c40f;
+  background-color: #7bcbeb;
   padding: 2rem 1rem;
   display: flex;
   flex-direction: column;
@@ -23,7 +23,7 @@ ul {
   font-size: 2.5rem;
   font-weight: bold;
   color: #2c3e50;
-  text-shadow: 2px 2px 0 #f39c12;
+  text-shadow: 2px 2px 0 #6aceec;
   letter-spacing: 2px;
 }
 
@@ -43,7 +43,7 @@ ul {
   font-weight: bold;
   font-size: 1.5rem;
   letter-spacing: 1px;
-  border: 3px solid #f39c12;
+  border: 3px solid #2399cc;
   transition: all 0.3s ease;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   min-width: 150px;
@@ -51,14 +51,14 @@ ul {
 }
 
 .nav-links a:hover {
-  background-color: #f39c12;
+  background-color: #1d79c4;
   color: white;
   transform: translateY(-3px);
   box-shadow: 0 6px 12px rgba(243, 156, 18, 0.3);
 }
 
 .nav-links a.active {
-  background-color: #f39c12;
+  background-color: #1a6bcf;
   color: white;
   border-color: #2c3e50;
 }

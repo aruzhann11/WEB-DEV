@@ -1,0 +1,128 @@
+{
+  "info": {
+    "name": "Lab 10 Shop API",
+    "_postman_id": "a1b2c3d4e5f6",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "PRODUCTS - LIST (GET)",
+      "request": {
+        "method": "GET",
+        "url": "http://127.0.0.1:8000/api/products/"
+      }
+    },
+    {
+      "name": "PRODUCT CREATE (POST)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Phone\",\n  \"price\": 500\n}"
+        },
+        "url": "http://127.0.0.1:8000/api/products/"
+      }
+    },
+    {
+      "name": "PRODUCT DETAIL (GET)",
+      "request": {
+        "method": "GET",
+        "url": "http://127.0.0.1:8000/api/products/1/"
+      }
+    },
+    {
+      "name": "PRODUCT UPDATE (PUT)",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Updated Phone\",\n  \"price\": 999\n}"
+        },
+        "url": "http://127.0.0.1:8000/api/products/1/"
+      }
+    },
+    {
+      "name": "PRODUCT DELETE",
+      "request": {
+        "method": "DELETE",
+        "url": "http://127.0.0.1:8000/api/products/1/"
+      }
+    },
+
+    {
+      "name": "CATEGORIES - LIST (GET)",
+      "request": {
+        "method": "GET",
+        "url": "http://127.0.0.1:8000/api/categories/"
+      }
+    },
+    {
+      "name": "CATEGORY CREATE (POST)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Electronics\"\n}"
+        },
+        "url": "http://127.0.0.1:8000/api/categories/"
+      }
+    },
+    {
+      "name": "CATEGORY DETAIL (GET)",
+      "request": {
+        "method": "GET",
+        "url": "http://127.0.0.1:8000/api/categories/1/"
+      }
+    },
+    {
+      "name": "CATEGORY UPDATE (PUT)",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Updated Category\"\n}"
+        },
+        "url": "http://127.0.0.1:8000/api/categories/1/"
+      }
+    },
+    {
+      "name": "CATEGORY DELETE",
+      "request": {
+        "method": "DELETE",
+        "url": "http://127.0.0.1:8000/api/categories/1/"
+      }
+    },
+
+    {
+      "name": "CATEGORY PRODUCTS (CUSTOM VIEW)",
+      "request": {
+        "method": "GET",
+        "url": "http://127.0.0.1:8000/api/categories/1/products/"
+      }
+    }
+  ]
+}
